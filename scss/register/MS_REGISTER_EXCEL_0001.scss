@@ -1,0 +1,90 @@
+.gb-register_excel{
+  .gb-register_excel-top{
+    background: $color-main-excel;
+    .gb-register_excel-top-left{
+      img{
+        width:  auto;
+      }
+    }
+    .gb-register_excel-top-right{
+      .form-group{
+        font-size: 16px;
+        color: #fff;
+        a{
+          font-size: 16px;
+          color: #fff;
+        }
+        label{
+          display: block;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 1.2px;
+          padding: 15px 0;
+          color: #fff;
+        }
+      }
+      .btn-dangnhap_excel{
+        background: #fff;
+        color: $color-main-excel;
+        font-weight: 600;
+        margin: 43px 0;
+      }
+    }
+  }
+  .gb-dangky_tour{
+    padding:  30px 0;
+    .gb-dangky_tour-left{
+
+    }
+    .gb-dangky_tour-right{
+      .gb-dangky_tour-right-top{
+        margin: 20px 0;
+        p{
+          color: #000;
+          line-height: 20px;
+          font-size: 18px;
+        }
+        ul{
+          margin-top: 15px;
+          li{
+            display:  inline-block;
+            a{
+              display: block;
+              font-size: 14px;
+              color: #fff;
+              padding: 10px 30px;
+              &.btn-facebook{
+                background: #496397;
+              }
+              &.btn-google{
+                background: #dc493f;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .gb-form-dangky{
+    h3{
+      font-size: 16px;
+      font-weight: 700;
+      padding-bottom: 20px;
+      text-transform:  uppercase;
+    }
+    p{
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 22px;
+      a{
+        color: $color-main-excel;
+      }
+    }
+    .btn-taotaikhoan{
+      background: #207244;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}

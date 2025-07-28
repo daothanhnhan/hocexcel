@@ -1,0 +1,74 @@
+.gb-header-excel{
+  //padding: 15px 0;
+  background: #f1f1f1;
+  .gb-header-top_logo{
+    width: 165px;
+    margin-right: 30px;
+    a{
+      display: block;
+      padding: 13px 0;
+    }
+  }
+  .gb-header-excel-center{
+    padding: 14px 0;
+    @media screen and (max-width: 767px) {
+      padding:  0;
+    }
+  }
+}
+.gb-header-excel-left{
+  display: flex;
+  .gb-header-top_excel{
+
+  }
+}
+
+.gb-header-excel-right{
+  display:  flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  @media screen and (max-width: 991px) {
+    padding-bottom: 20px;
+    padding-top: 0;
+  }
+  .gb-header-excel-right-kichhoat-cart{
+    border-right: 1px solid #ccc;
+    width: 50%;
+    ul{
+      li{
+        display:  inline-block;
+        a{
+          display:  block;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 10px 15px;
+          color: #fff;
+          background: $color-main-excel;
+        }
+        .header-cart-excel{
+          padding: 9px;
+          font-size: 14px;
+          color: #fff;
+          background:  $color-main-excel;
+        }
+      }
+    }
+  }
+  .gb-header-excel-right-login-register{
+    width: 50%;
+    text-align: right;
+    a{
+      display:  inline-block;
+      color:  $color-main-excel;
+      border: 1px solid  $color-main-excel;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px;
+      line-height: 10px;
+      @media screen and (max-width: 767px) {
+        font-size: 12px;
+        padding: 10px 8px;
+      }
+    }
+  }
+}

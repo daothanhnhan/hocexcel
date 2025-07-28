@@ -1,0 +1,19 @@
+.gb-breadcrumbs_excel{
+  display:  flow-root;
+  margin-bottom: 30px;
+  background: #f1f1f1;
+  span{
+    float:  left;
+    padding-right: 20px;
+  }
+  .breadcrumb{
+    background:  transparent;
+    padding-top: 30px;
+    li{
+      a{
+        color: #428bca;
+        font-size: 14px;
+      }
+    }
+  }
+}

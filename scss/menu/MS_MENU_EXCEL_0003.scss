@@ -1,0 +1,38 @@
+.gb-cackhoahochangdau_excel{
+  padding: 50px 0;
+  text-align: center;
+  h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform:  uppercase;
+    span{
+      color: $color-main-excel;
+    }
+  }
+  p{
+    font-size: 18px;
+    color: #7a7a7a;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  ul{
+    li{
+      display:  inline-block;
+      @media screen and (max-width: 991px) {
+        margin-bottom: 5px;
+      }
+      a{
+        display:  block;
+        font-size: 13px;
+        line-height: 22px;
+        background-color: #f1f1f1;
+        color: #666666;
+        font-weight: 500;
+        padding: 6px 15px;
+        text-transform: uppercase;
+        border-radius: 5px;
+      }
+    }
+  }
+}

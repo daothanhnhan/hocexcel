@@ -1,0 +1,67 @@
+.gb-introvechungtoi_rem{
+  padding:50px 0;
+  //background: #f1f1f1;
+  background: url("../images/bg_footer.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 50px;
+  .gb-introvechungtoi_rem-left{
+    h2{
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    .gb-divider {
+      border-color: $color-main1-excel;
+      margin: 15px 0;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .gb-introvechungtoi_rem-doctiep{
+      background: $color-main1-excel;
+      display:  inline-block;
+      min-width: 100px;
+      padding: 10px 0;
+      color: $color-white;
+      text-align: center;
+      text-transform: uppercase;
+      border: 1px solid $color-main1-excel;
+      transition:  all 0.5s;
+      margin-top: 30px;
+      &:hover{
+        color: $color-main1-excel;
+        background:  transparent;
+      }
+    }
+  }
+  .gb-introvechungtoi_rem-right{
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+  .gb-introvechungtoi_rem-item{
+    margin-bottom: 30px;
+    display:  flow-root;
+    .item-icons-excel{
+      font-size: 36px;
+      width: 60px;
+      float: left;
+      color: $color-main-excel;
+    }
+    .item-text-excel{
+      width: calc(100% - 60px);
+      float: left;
+      h4{
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+      p{
+        color: #808080;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: left;
+      }
+    }
+  }
+}

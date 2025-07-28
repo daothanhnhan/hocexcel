@@ -1,0 +1,48 @@
+.gb-page-sanpham_excel{
+  padding: 50px 0;
+  .gb-khoahocexcel_excel-item{
+    margin-bottom: 30px;
+    .item-img_excel{
+      img{
+        width: 100%;
+        height: 202px;
+      }
+    }
+    .item_text_excel{
+      h3{
+        a{
+          text-align: left;
+          display: block;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 1.2px;
+          padding: 15px 0;
+          color: $color-main-excel;
+        }
+      }
+      .item-giangvien_excel{
+        display:  flex;
+        .item-giangvien_excel-img{
+          width: 40px;
+          height: 40px;
+        }
+        .item-giangvien_excel_text{
+          padding-left: 15px;
+          p{
+            text-align: center;
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            color: #000;
+          }
+          span{
+            font-size: 14px;
+            color: #7a7a7a;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}

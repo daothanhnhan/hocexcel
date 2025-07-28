@@ -1,0 +1,158 @@
+.gb-chitietsanpham_excel{
+  .gb-chitietsanpham_excel-videobaihoc{
+    .gb-videobaihoc_left{
+      h1{
+        text-align: left;
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        padding-bottom: 20px;
+        color: #207244;
+        text-transform:  uppercase;
+      }
+    }
+    .gb-videobaihoc_right{
+      table{
+        tr{
+          border: 1px solid #ccc;
+          td{
+            text-align: left;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            color: #207244;
+            line-height: 36px;
+            border: 1px solid #ccc;
+            .btn-muakhoahoc{
+              a{
+                text-align: left;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                padding: 10px 20px;
+                background: #207244;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .gb-chitietsanpham_excel-info{
+    .gb-chitietsanpham_excel-info-left{
+      h3{
+        text-align: left;
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 15px;
+        color: #000;
+        text-transform: uppercase;
+      }
+      h4{
+        text-align: left;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 0;
+        color: #000;
+        text-transform: uppercase;
+      }
+      p{
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 22px;
+      }
+      ul{
+        li{
+          font-size: 14px;
+          color: #7a7a7a;
+          line-height: 22px;
+        }
+      }
+    }
+    .gb-chitietsanpham_excel-info-right{
+
+    }
+  }
+}
+
+.gb-chitietkhoahoc_excel{
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  h3{
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: $color-main-excel;
+    text-transform: uppercase;
+  }
+  h4{
+
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+  }
+  ul{
+    li{
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      &:last-child{
+        border-bottom:  none;
+        padding-bottom:  0;
+        margin-bottom:  0;
+      }
+      a{
+        display:  block;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+//======================
+/*Gỉang viên khóa học*/
+.gb-giangvien_excel{
+  padding: 30px 0;
+  h5{
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: $color-main-excel;
+    text-transform: uppercase;
+  }
+  h4{
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 0;
+    color: #000;
+    text-transform: uppercase;
+  }
+  img{
+    margin:  0 auto;
+  }
+  ul{
+    li{
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 22px;
+      i{
+        color: $color-main-excel;
+        font-size: 18px;
+      }
+    }
+  }
+}

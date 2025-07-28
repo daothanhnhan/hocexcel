@@ -1,0 +1,50 @@
+.footer-main-content_excel{
+  background: url("../images/bg_footer.png") no-repeat center center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.copyright-area_excel{
+  p{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #7a7a7a;
+  }
+}
+.widget-title-footer-excel{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/*footer-about-excel*/
+.footer-about-excel{
+  p{
+    font-size: 14px;
+    color: $color-grey;
+    line-height: 22px;
+  }
+}
+
+/*footer-recentpost-excel*/
+.footer-adress-excel{
+  ul{
+    li{
+      color: $color-main-excel;
+      line-height: 20px;
+      font-size: 14px;
+      span{
+        font-weight: 600;
+      }
+      i{
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+
+      }
+    }
+  }
+}

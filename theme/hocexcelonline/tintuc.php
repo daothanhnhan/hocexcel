@@ -1,0 +1,1 @@
+<?php include DIR_NEWS."MS_NEWS_EXCEL_0001.php";?>
